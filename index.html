@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sawaira Sial - Portfolio</title>
+ 
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/3.0.0-beta.5/aos.css" integrity="sha512-hoGlO+71fSG6lgS60I4bKvsFVB+bAnrVFDYlwSXoyNLppDcoupwJB7KbWq/63iACKn3gcgK9jMXd+T+YDeVrGQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+ 
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg  navbar text-capitalize" id="home">
+  <div class="container-fluid">
+    <a class="navbar-brand"><b id="name">sawaira-sial</b></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active text-white " aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#services">services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#work">my projects</a>
+        </li>
+        <li class="nav-item text-white">
+          <a class="nav-link text-white" href="#contact">contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <!-- navbar end -->
+     
+<!-- Toggle button -->
+
+     <div class="container-fluid mt-4" id="imgf">
+      <div class="row mb-3">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div id="textsection" class="text-capitalize text-center">
+<h2 data-aos="zoom-in" data-aos-duration="2000">hi i am <span id="name">sawaira-sial</span></h2>
+<h4 id="font" data-aos="zoom-in" data-aos-duration="2000"> front-end-developer</h4>
+<p data-aos="zoom-in" data-aos-duration="1500" >i am a passionate frontend developer skilled in creating responsive,<br>
+  user-friendly websites whit interactive animations, delivering 
+  modern<br> and engaging web experiences.
+</p>
+<div class="text-center">
+  
+  <button class="btn custom-btn dropdown-toggle" data-bs-toggle="dropdown" data-aos="zoom-in-up" data-aos-duration="2500">download cv</button>
+  <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#" onclick="confirmDownload()">Download CV</a></li>
+      <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#cvModal">View CV</a></li>
+  </ul>
+</div>
+
+<!-- CV Modal -->
+<div class="modal fade" id="cvModal" tabindex="-1" aria-labelledby="cvModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="cvModalLabel">My CV</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+              <img src="cv.jpg" alt="CV" class="img-fluid">
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- <a href="cv.html" class="btn custom-btn" data-aos="zoom-in-up" data-aos-duration="2500">view my cv</a> -->
+</div>
+ </div> 
+        <div class="col-md-6 col-lg-6 col-sm-12" id="img" data-aos="zoom-in" data-aos-duration="2000">
+          <img src="saw1.jpg" alt="img" class="img-fluid p-10">
+        </div>
+      </div>
+     </div>
+<!-- first section end -->
+ <div class="container mt-" id="about"> 
+  <div class="row">
+     <div class="col-lg-6 col-md-6 col-sm-12" data-aos="zoom-in" data-aos-duration="2000">
+       <img src="programming-background-collage.jpg" alt="imgend" class="img-fluid p-10">  
+    </div> 
+    <div class="col-lg-6 col-md-6 col-sm-12" id="textabout">
+      <h1 class="text-capitalize text-start" data-aos="fade-up" data-aos-duration="2000"><b>about me</b></h1>
+      <p id="para"  data-aos="fade-down" data-aos-duration="2500">I am a passionate Front-End Developer and an undergraduate in BS Computer Science with 1 year of experience in designing and developing responsive websites. I have successfully completed projects such as restaurant websites, food delivery platforms, and e-commerce stores, delivering user-friendly and visually appealing interfaces. My focus is on creating impactful digital experiences while meeting client expectations efficiently.
+        I have also collaborated with faculty members of the Computer Science department on academic and practical projects, further refining my technical and problem-solving skills. My work reflects a commitment to innovation, attention to detail, and a strong drive to exceed expectations. I continuously seek opportunities to grow, learn, and apply my expertise to create meaningful web solutions.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- education -->
+
+<div class="container education-section text-center">
+  <h1 class="mb-4" data-aos="zoom-in" data-aos-duration="2000">Education</h1>
+  
+  <div class="row justify-content-center">
+      <div class="col-md-8">
+          <div class="education-box text-start" data-aos="zoom-in" data-aos-duration="2400">
+              <h4><i class="fas fa-graduation-cap hlight"></i><span class="hlight"> Bachelor's Degree in Computer Science </span></h4>
+              <p><strong>Thal University Bhakkar</strong></p>
+              <p><i class="fas fa-calendar-alt"></i> 2022 – 2026</p>
+
+              <h5><i class="fas fa-award"></i> Key Achievements:</h5>
+              <ul>
+                  <li>Strong foundation in Web Technologies</li>
+                  <li>Developing expertise in JavaScript and animation libraries</li>
+                  <li>Working on modern web development projects</li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="container py-5">
+  <h1 class="text-center fw-bold mb-4" data-aos="zoom-in" data-aos-duration="2000">Professional Experience</h1>
+
+  <div class="row justify-content-center pbox">
+      
+      <!-- Thal University Experience -->
+      <div class="col-md-6 mb-4">
+          <div class="card text-white shadow-lg p-4" data-aos="zoom-in" data-aos-duration="2000">
+              <h2 class="fs-4 fw-semibold">
+                <span class="hlight"> 🎓 Thal University </span>
+                  <span class="float-end text-white fs-6">Onsite</span>
+              </h2>
+              <p class="text-white">2023 (4 Months)</p>
+              <h3 class="fs-5 fw-semibold">Front-End Developer</h3>
+              <ul class="mt-2 text-light small">
+                  <li>Developed web projects under teacher guidance.</li>
+                  <li>Built a Final Year Project: <b>Online Room Booking Website</b>.</li>
+              </ul>
+          </div>
+      </div>
+
+      <!-- Code Alpha Internship -->
+      <div class="col-md-6 mb-4" data-aos="zoom-in" data-aos-duration="2000">
+          <div class="card text-white shadow-lg p-4">
+              <h2 class="fs-4 fw-semibold">
+                 <span class="hlight"> 🏢 Code Alpha </span>
+                  <span class="float-end text-white fs-6">Remote</span>
+              </h2>
+              <p class="text-white">Feb 2025 - Mar 2025</p>
+              <h3 class="fs-5 fw-semibold">Intern (Web Developer)</h3>
+              <ul class="mt-2 text-light small">
+                  <li>Completed portfolio, e-commerce website, and image store gallery.</li>
+                  <li>Worked with modern web technologies for responsive design.</li>
+              </ul>
+          </div>
+      </div>
+
+  </div>
+</div>
+
+ <!-- Services Section -->
+ <section id="services">
+  <div class="container">
+      <h2 class="text-center mb-5" data-aos="fade-up" data-aos="zoom-in" data-aos-duration="2000">My Services</h2>
+      <div class="row">
+          <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-card p-4">
+                  <i class="fas fa-code fa-3x mb-3" style="color: #00f3ff;"></i>
+                  <h4> Modern & Responsive<br> Web Design </h4>
+                  <p>Modern responsive websites built with latest technologies</p>
+              </div>
+          </div>
+          <!-- Add more service cards -->
+          <div class="col-lg-4 mb-4" data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500">
+            <div class="service-card p-4">
+                <i class="fas fa-code fa-3x mb-3" style="color: #00f3ff;"></i>
+                <h4> E-commerce Website Development </h4>
+                <p>High-converting online stores with seamless functionality and secure payment</p>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-card p-4">
+              <i class="fas fa-code fa-3x mb-3" style="color: #00f3ff;"></i>
+              <h4> Custom Landing<br> Pages </h4>
+              <p>Engaging, fast, and conversion-focused landing pages for maximum impact.</p>
+          </div>
+      </div>
+
+      </div>
+  </div>
+</section>
+
+
+
+
+   
+ 
+ <div class="skills-container" id="skills">
+  <!-- Technical Skills -->
+  <div data-aos="zoom-in" data-aos-duration="2400">
+      <h3 class="section-title">Technical Skills</h3>
+      <div class="mb-3">
+          <p>HTML</p>
+          <div class="progress">
+              <div class="progress-bar" style="width: 90%;"></div>
+          </div>
+      </div>
+      <div class="mb-3">
+          <p>CSS</p>
+          <div class="progress">
+              <div class="progress-bar" style="width: 60%;"></div>
+          </div>
+      </div>
+      <div class="mb-3">
+          <p>JavaScript</p>
+          <div class="progress">
+              <div class="progress-bar" style="width: 50%;"></div>
+          </div>
+      </div>
+      <div class="mb-3">
+          <p>Tailwind css</p>
+          <div class="progress">
+              <div class="progress-bar" style="width: 50%;"></div>
+          </div>
+      </div>
+      <div class="mb-3">
+          <p>bootstrap css</p>
+          <div class="progress">
+              <div class="progress-bar" style="width: 76%;"></div>
+          </div>
+      </div>
+  </div>
+
+  
+    <!-- Professional Skills -->
+    <div class="mt-5" data-aos="zoom-in" data-aos-duration="2500">
+        <h3 class="section-title">Professional Skills</h3>
+        <div class="row text-center">
+            <div class="col-md-3 col-6">
+                <div class="circular-progress" data-percent="90">
+                    <svg width="100" height="100">
+                        <circle class="bg-circle" cx="50" cy="50" r="45"></circle>
+                        <circle class="progress-circle" cx="50" cy="50" r="45"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                </div>
+                <p>Creativity</p>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="circular-progress" data-percent="65">
+                    <svg width="100" height="100">
+                        <circle class="bg-circle" cx="50" cy="50" r="45"></circle>
+                        <circle class="progress-circle" cx="50" cy="50" r="45"></circle>
+                    </svg>
+                    <div class="percentage">65%</div>
+                </div>
+                <p>Communication</p>
+            </div>
+            <div class="col-md-3 col-6 mt-3 mt-md-0">
+                <div class="circular-progress" data-percent="75">
+                    <svg width="100" height="100">
+                        <circle class="bg-circle" cx="50" cy="50" r="45"></circle>
+                        <circle class="progress-circle" cx="50" cy="50" r="45"></circle>
+                    </svg>
+                    <div class="percentage">75%</div>
+                </div>
+                <p>Problem Solving</p>
+            </div>
+            <div class="col-md-3 col-6 mt-3 mt-md-0">
+                <div class="circular-progress" data-percent="85">
+                    <svg width="100" height="100">
+                        <circle class="bg-circle" cx="50" cy="50" r="45"></circle>
+                        <circle class="progress-circle" cx="50" cy="50" r="45"></circle>
+                    </svg>
+                    <div class="percentage">85%</div>
+                </div>
+                <p>Teamwork</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- work -->
+ <div class="container mt-4" id="work">
+  <div class="row textw">
+    <div class="col-12 text-capitalize p-10"ata-aos="zoom-in-up" data-aos-duration="3000" d><h1><b>my Projects</b></h1></div>
+  </div>
+  <div class="row work mt-4 ">
+    <div class="col-lg-4 col-md-6 mb-4"  data-aos="zoom-in" data-aos-duration="2000">
+      <img src="img1.jpg" class="img-fluid w-100">
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4"  data-aos="zoom-in" data-aos-duration="2000">
+      <img src="img2.jpg" class="img-fluid w-100">
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4"  data-aos="zoom-in" data-aos-duration="2000">
+      <img src="img3.jpg" class="img-fluid w-100">
+    </div>
+  </div>
+ </div>
+<!-- contact -->
+
+
+<div class="container contact-section text-center"  id="contact">
+  <h2 class="mb-4"  data-aos="zoom-in-up" data-aos-duration="3000">Get in Touch</h2>
+  
+  <div class="row justify-content-center">
+      <div class="col-md-6">
+          <div class="contact-box text-start text-white"  data-aos="zoom-in-up" data-aos-duration="3000">
+              <h4>Contact Information</h4>
+              <p><i class="fas fa-envelope"></i> mahisial642@gmail.com</p>
+              <p><i class="fa-brands fa-linkedin"></i> sawaira-sial</p>
+              <p><i class="fas fa-map-marker-alt"></i> Bhakkar, Pakistan</p>
+          </div>
+      </div>
+  </div>
+</div> 
+
+ <div class="container mt-4">
+  <!-- Heading -->
+  <div class="heading">
+    <h1 data-aos="zoom-in-up" data-aos-duration="3000"><b> let's connect </b></h1>
+  </div>
+
+  <!-- Social Icons -->
+  <div class="icons-container">
+    <a href="https://www.instagram.com/manntmalikg?igsh=MWVrenRhejhucGR1dQ==" target="_blank" class="social-icon"  data-aos="zoom-in" data-aos-duration="2500">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+    <a href="https://www.tiktok.com/@webdeveloper206?_t=ZM-8tzpJ41ZzAV&_r=1" target="_blank" class="social-icon"  data-aos="zoom-in" data-aos-duration="3000">
+      <i class="fa-brands fa-tiktok"></i>
+    </a>
+    <a href="https://github.com/SawairaSial" class="social-icon" data-aos="zoom-in" data-aos-duration="2500">
+      <i class="fa-brands fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/sawaira-sial-941996310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank" class="social-icon"  data-aos="zoom-in" data-aos-duration="3000">
+      <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+  </div>
+</div>
+
+
+    
+
+  <!-- Copyright -->
+  <footer class="mt-5 bg-dark">
+    <div class="container text-center">
+      <!-- <p class="text-secondary mb-0">&copy; 2023 <span class="text-accent">Your Name</span>. All Rights Reserved</p> -->
+      <div class="container-fluid text-center mb-4 mt-4">
+        <h4 class="text-white pt-3 mb-4">Quick Links</h4>
+        <ul class="list-unstyled">
+            <li><a href="#" class="text-white text-decoration-none hover-accent">Home</a></li>
+            <li><a href="#work" class="text-white text-decoration-none hover-accent" id="work">Projects</a></li>
+            <li><a href="#skills" class="text-white text-decoration-none hover-accent">Skills</a></li>
+            <li><a href="#contact" class="text-white text-decoration-none hover-accent">Contact</a></li>
+        </ul>
+    </div>
+    <p class="text-white mb-0 mt-4 pb-3">&copy; 2025 <span class="text-accent">sawaira-sial</span>. All Rights Reserved</p>
+    </div>
+  </footer>
+
+
+</body>
+<script src="index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</html>
